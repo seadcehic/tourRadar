@@ -1,1 +1,12 @@
-# tourRadar
+Steps to run tests:
+
+You must have node installed. 
+
+Open solution in Visual Studio Code, then in terminal run npm install command.
+After that if you want to run security test, you should run this command: npm run wdio -- --suite xssSecurity
+
+If you want to run test about filtering tours, then run: npm run wdio -- --suite filterTours
+
+If you want to run test about advisor settings, then run: npm run wdio -- --suite advisorSettings
+
+If you want to run test about search tours, then run: npm run wdio -- --suite searchAndBook
